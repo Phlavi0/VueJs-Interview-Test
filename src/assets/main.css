@@ -1,0 +1,22 @@
+@import './base.css';
+  body {
+    place-items: center;
+  }
+
+  #app {
+    padding: 0 2rem;
+  }
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid grey;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: darkslategrey;
+}
